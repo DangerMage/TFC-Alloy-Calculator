@@ -1,7 +1,7 @@
 package org.dangermage;
 
 
-public class App 
+public class TFCAlloyCalc
 {
     public static void main( String[] args )
     {
