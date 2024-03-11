@@ -1,0 +1,19 @@
+{
+  "alloys": [
+    {
+      "name": "Brass",
+      "components": [
+        {
+          "material": "Copper",
+          "minPercentage": 88,
+          "maxPercentage": 92
+        },
+        {
+          "material": "Zinc",
+          "minPercentage": 8,
+          "maxPercentage": 12
+        }
+      ]
+    }
+  ]
+}
