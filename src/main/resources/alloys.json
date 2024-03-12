@@ -14,6 +14,26 @@
           "maxPercentage": 12
         }
       ]
+    },
+    {
+      "name": "Bismuth Bronze",
+      "components": [
+        {
+          "material": "Copper",
+          "minPercentage": 50,
+          "maxPercentage": 65
+        },
+        {
+          "material": "Zinc",
+          "minPercentage": 20,
+          "maxPercentage": 30
+        },
+        {
+          "material": "Bismuth",
+          "minPercentage": 10,
+          "maxPercentage": 20
+        }
+      ]
     }
   ]
 }
