@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.List;
 
 public class TFCAlloyCalc {
 
@@ -27,10 +28,12 @@ public class TFCAlloyCalc {
         }
 
 
+        // load config into a record list
         FileConfig config = FileConfig.of(configFile);
         config.load();
 
-        System.out.println(config);
+        List<Alloy> alloys = configManager.readConfig(config);
+
 
 
     }
